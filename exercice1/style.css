@@ -1,0 +1,84 @@
+:root {
+  --notifSuccess: green;
+  --notifDanger: red;
+  --notifWarning: yellow;
+  --notifInfo: blue;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#container {
+  /* border:2px solid red; */
+  height: 100vh;
+  /* background-color: #f5f5f5;  */
+  background-color: #cccccc;
+}
+.contain-notification {
+  display: flex;
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 5%;
+  justify-content: space-between;
+
+  width: 40%;
+  background-color: #ffffffe8;
+  padding: 2%;
+}
+.notif-succes {
+  background-color: var(--notifSuccess);
+}
+.newdivClass {
+  margin: 10px;
+}
+p {
+  padding: 1%;
+  font-size: 2em;
+}
+
+button {
+  padding: 2%;
+  font-size: 1em;
+  border-radius: 14px;
+  color: white;
+}
+.notif-danger {
+  background-color: var(--notifDanger);
+}
+.notif-warning {
+  background-color: var(--notifWarning);
+}
+.notif-info {
+  background-color: var(--notifInfo);
+}
+.monProjet {
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  height: 100vh;
+  /* background-color: var(--notifSuccess);  */
+  padding: 1%;
+  color: black;
+  /* background-color:white; */
+  display: flex;
+  flex-direction: column-reverse;
+  /* background-color: black; */
+}
+p {
+  color: black;
+  /* border:2px solid red; */
+  /* padding:2%; */
+}
+.succesNotif {
+  background-color: var(--notifSuccess);
+}
+.warningNotif {
+  background-color: var(--notifWarning);
+}
+.DangerNotif {
+  background-color: var(--notifDanger);
+}
+.InfoNotif {
+  background-color: var(--notifInfo);
+}
