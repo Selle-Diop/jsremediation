@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="conteneur">
+      <header>
+        <div class="cols" id="cols">Colonne</div>
+        <div class="taches" id="taches">Taches</div>
+      </header>
+      <div class="colstaches" id="colstaches">
+        <!-- <div class="headbody">
+                <div class="head">colonne</div>
+                <div class="body"> gdd</div>   
+
+            </div>
+            <div class="headbody">
+                <div class="head">colonne</div>
+                <div class="body"> gdd</div>   
+
+            </div>
+            <div class="headbody">
+                <div class="head">colonne</div>
+                <div class="body"> gdd</div>   
+
+            </div>
+            <div class="headbody">
+                <div class="head">colonne</div>
+                <div class="body"> gdd</div>   
+
+            </div>
+            <div class="headbody">
+                <div class="head">colonne</div>
+                <div class="body"> gdd</div>   
+
+            </div> -->
+      </div>
+    </div>
+    <!-- ----------------------Modals---------------- -->
+    <div class="containModal">
+      <form class="formmodal" id="modal">
+        <div class="headmodal">
+          <h4>Nouvelle Tache</h4>
+                <i class="fa-solid fa-xmark" id="croix"></i>
+          
+        </div>
+    
+        <div class="bodymodal">
+            
+            <small>Remplir les informations de la nouvelle tache</small>
+            <div class="label">
+                <label for="">Tache</label>
+                <textarea name="" id="" cols="30" rows="10" class="inpute"></textarea>
+          </div>
+
+          <div class="label">
+                <label for="">Date</label>
+                <input type="date" name="" id="" class="inpute"/>
+          </div>
+
+          <div class="label">
+                <label for="">Heure de Début</label>
+                <input type="time" name="" id="" class="inpute"/>
+          </div>
+
+          <div class="label">
+                <label for="">Heure de Fin</label>
+                <input type="time" name="" id="" class="inpute"/>
+          </div>
+
+          <input type="button" class="button" value="Ajouter" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
